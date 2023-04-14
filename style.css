@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    width: 1400px;
+    /* height: 100vh; */
+    margin: 0 auto;
+}
+header{
+    background-image: url('./images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding: 19px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+.navbar_left img{
+    width: 120px;
+    height: 44px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.text li a{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    color: #FFFFFF;
+    transition: 1.5s;
+}
+.text li a:hover{
+    color: rgb(41, 39, 39);
+}
+.text li a:active{
+    color: rgb(6, 6, 92);
+}
+.bg-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-header h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 180px;
+}
+.bg-header p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 45px;
+}
+.btn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 33px;
+    margin-top: 150px;
+    transition: 1.5s;
+    margin-bottom: 70px;
+}
+.btn:hover{
+    color: rgb(221, 165, 237);
+}
+.btn:active{
+    color: rgb(15, 15, 166);
+}
+.bg-main{
+    background-image: url('./images/main_one_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-girls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-girls h1{
+    margin-top: 255px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 46px;
+}
+.bg-girls p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bg-section{
+    background-image: url('./images/main_two_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-flovers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-flovers h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 170px;
+}
+.bg-flovers p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.site-btn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 33px;
+    transition: 1.5s;
+    margin-top: 88px;
+    margin-bottom: 70px;
+}
+.site-btn:hover{
+    color: rgb(221, 165, 237);
+}
+.site-btn:active{
+    color: rgb(15, 15, 166);
+}
+.bg-fashion{
+    background-image: url('./images/main_thre_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-girls-fashion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-girls-fashion h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 175px;
+}
+.bg-girls-fashion p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 44px;
+}
+.bg-others{
+    background-image: url('./images/main_four_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.other h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 154px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 175px;
+}
+.other p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 46px;
+}
+.bg-footer{
+    background: #000000;
+}
+.amazings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amazings h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 120px;
+}
+.amazings p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+.main-btn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #111111;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    transition: 1.5s;
+}
+.main-btn:hover{
+    background: rgb(55, 4, 103);
+    color: burlywood;
+}
+.main-btn:active{
+    background: burlywood;
+    color: rgb(55, 4, 103);
+}
+.amazing_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+.title_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.title_left{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #666666;
+}
+.love{
+    color: red;
+}
+.title_text, li, a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: right;
+    color: #666666;
+    transition: 1s;
+}
+.title_text, li, a:hover{
+    color: red;
+}
+
+/* finish */
